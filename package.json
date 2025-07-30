@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "autocommit": "chokidar \"**/*\" -i \"**/.git/**\" \"**/node_modules/**\" \"**/.next/**\" -c \"bash autocommit.sh\""
+    "autocommit": "chokidar \"**/*\" --ignored=\"**/.git/**\" -c \"./autocommit.bat\""
   },
   "dependencies": {
     "next": "15.4.5",
